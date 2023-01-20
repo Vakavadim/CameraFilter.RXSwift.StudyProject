@@ -15,6 +15,7 @@
 		E008AE8D2970B4B400A6D4E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E008AE8C2970B4B400A6D4E0 /* Assets.xcassets */; };
 		E008AE902970B4B400A6D4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E008AE8E2970B4B400A6D4E0 /* LaunchScreen.storyboard */; };
 		E008AE982970B66D00A6D4E0 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008AE972970B66D00A6D4E0 /* PhotosCollectionViewController.swift */; };
+		E08534222979FCFC0061EAA2 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08534212979FCFC0061EAA2 /* PhotoCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E008AE8F2970B4B400A6D4E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E008AE912970B4B400A6D4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E008AE972970B66D00A6D4E0 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		E08534212979FCFC0061EAA2 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 				59BA505D9ACFED9D3B892755 /* Pods-CameraFilter.RXSwift.StudyProject.debug.xcconfig */,
 				C5E647CD4221C56BE06FCCA9 /* Pods-CameraFilter.RXSwift.StudyProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,6 +88,7 @@
 				E008AE852970B4B300A6D4E0 /* SceneDelegate.swift */,
 				E008AE872970B4B300A6D4E0 /* ViewController.swift */,
 				E008AE972970B66D00A6D4E0 /* PhotosCollectionViewController.swift */,
+				E08534212979FCFC0061EAA2 /* PhotoCollectionViewCell.swift */,
 				E008AE892970B4B300A6D4E0 /* Main.storyboard */,
 				E008AE8C2970B4B400A6D4E0 /* Assets.xcassets */,
 				E008AE8E2970B4B400A6D4E0 /* LaunchScreen.storyboard */,
@@ -211,6 +213,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E008AE882970B4B300A6D4E0 /* ViewController.swift in Sources */,
+				E08534222979FCFC0061EAA2 /* PhotoCollectionViewCell.swift in Sources */,
 				E008AE842970B4B300A6D4E0 /* AppDelegate.swift in Sources */,
 				E008AE862970B4B300A6D4E0 /* SceneDelegate.swift in Sources */,
 				E008AE982970B66D00A6D4E0 /* PhotosCollectionViewController.swift in Sources */,

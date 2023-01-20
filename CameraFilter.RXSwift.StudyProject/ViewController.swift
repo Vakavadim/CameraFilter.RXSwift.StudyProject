@@ -10,13 +10,13 @@ import RxSwift
 
 class ViewController: UIViewController {
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print("Something")
         
         self.navigationController?.navigationBar.prefersLargeTitles = true
     }
-
-
 }
 
