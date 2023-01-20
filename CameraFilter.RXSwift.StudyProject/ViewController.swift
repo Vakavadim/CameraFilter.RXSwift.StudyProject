@@ -41,11 +41,11 @@ class ViewController: UIViewController {
             return
         }
         
-        FilterService().applyFilter(to: sourceImage) { [weak self] image in
-            DispatchQueue.main.async {
-                self?.photoImageView.image = image
-            }
-        }
+        FilterService().applyFilter(to: sourceImage).subscribe(onNext: { filteredImage in
+                DispatchQueue.main.async {
+                    self.photoImageView.image = filteredImage
+                }
+        }).disposed(by: disposeBag)
     }
     
     private func updateUI(with image: UIImage) {
