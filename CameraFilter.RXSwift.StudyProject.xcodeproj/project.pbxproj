@@ -16,6 +16,7 @@
 		E008AE902970B4B400A6D4E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E008AE8E2970B4B400A6D4E0 /* LaunchScreen.storyboard */; };
 		E008AE982970B66D00A6D4E0 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E008AE972970B66D00A6D4E0 /* PhotosCollectionViewController.swift */; };
 		E08534222979FCFC0061EAA2 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08534212979FCFC0061EAA2 /* PhotoCollectionViewCell.swift */; };
+		E0853424297AB9620061EAA2 /* FilterService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0853423297AB9620061EAA2 /* FilterService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		E008AE912970B4B400A6D4E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E008AE972970B66D00A6D4E0 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
 		E08534212979FCFC0061EAA2 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0853423297AB9620061EAA2 /* FilterService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				E008AE872970B4B300A6D4E0 /* ViewController.swift */,
 				E008AE972970B66D00A6D4E0 /* PhotosCollectionViewController.swift */,
 				E08534212979FCFC0061EAA2 /* PhotoCollectionViewCell.swift */,
+				E0853423297AB9620061EAA2 /* FilterService.swift */,
 				E008AE892970B4B300A6D4E0 /* Main.storyboard */,
 				E008AE8C2970B4B400A6D4E0 /* Assets.xcassets */,
 				E008AE8E2970B4B400A6D4E0 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 				E008AE882970B4B300A6D4E0 /* ViewController.swift in Sources */,
 				E08534222979FCFC0061EAA2 /* PhotoCollectionViewCell.swift in Sources */,
 				E008AE842970B4B300A6D4E0 /* AppDelegate.swift in Sources */,
+				E0853424297AB9620061EAA2 /* FilterService.swift in Sources */,
 				E008AE862970B4B300A6D4E0 /* SceneDelegate.swift in Sources */,
 				E008AE982970B66D00A6D4E0 /* PhotosCollectionViewController.swift in Sources */,
 			);
